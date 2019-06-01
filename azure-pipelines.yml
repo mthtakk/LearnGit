@@ -1,7 +1,0 @@
-- task: VSBuild@1
-  inputs:
-    solution: '**\*.sln'
-    clean: true
-    restoreNugetPackages: true
-    msbuildArchitecture: 'x64'
-    createLogFile: true
